@@ -1193,7 +1193,7 @@
             <h2>THANK YOU FOR FILLING YOUR APPLICATION!</h2>
             <h3>We will contact you once your application status is completed.</h3>
             <p>Your application has been submitted successfully. A barangay representative will contact you within 3-5 working days.</p>
-            <p>For inquiries, please contact Barangay Pilar Village Office at (02) 1234-5678.</p>
+            <p>For inquiries, please contact Barangay Pilar Village Office at 0632 8806 7241.</p>
             
             <div class="thank-you-buttons">
                 <button class="submit-btn" id="newApplicationBtn">
@@ -1760,7 +1760,7 @@
             </div>
             <div class="footer-section">
                 <h3><i class="fas fa-phone-alt"></i> Contact Us!</h3>
-                <p>0927 342 5375</p>
+                <p>0632 8806 7241</p>
                 <p>Office Hours: Mon-Fri 8:00 AM - 5:00 PM</p>
             </div>
             <div class="footer-section">
@@ -1788,7 +1788,7 @@
                 street: 'SAPPHIRE STREET',
                 subdivision: 'PILAR VILLAGE',
                 provincialAddress: 'BRGY. SAN ISIDRO, ABUCAY, BATAAN',
-                contactNumber: '09171234567',
+                contactNumber: '0932 8806 7244',
                 age: '25',
                 lengthStay: '2 years',
                 birthday: 'January 15, 1999',
@@ -2928,4 +2928,5 @@
 </body>
 
 </html>
+
 
