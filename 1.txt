@@ -1760,6 +1760,7 @@
             </div>
             <div class="footer-section">
                 <h3><i class="fas fa-phone-alt"></i> Contact Us!</h3>
+                <p>brgypilar@gmail.com</p>
                 <p>0632 8806 7241</p>
                 <p>Office Hours: Mon-Fri 8:00 AM - 5:00 PM</p>
             </div>
@@ -2928,5 +2929,6 @@
 </body>
 
 </html>
+
 
 
