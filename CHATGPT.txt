@@ -1,0 +1,77 @@
+Attached is a file containing my conversation with deepseek regarding the code for this website that I want to create. By reading our conversation, you would have an understanding of exactly what I want to do. I already have a working html but just need a bit more debugging and stuff. I have more text files to upload but the most important conversation is this. I think I can already move on to phase 2 for this website. For now, I will just paste the text file so that you would understand, no need to give me a code right now or anything, because I will send the working code after this. I need just a bit more debugging before I can safely continue the phase 2 of this project.
+COMPLETED STEP 11111111111.txt
+Document
+1. Everything you described are already in my code. Except for the first time job seeker thing because it was removed for the mean time.
+2. I would want the data to be saved locally, in a spreadsheet, and in gdrive. A server can't be used for this since the project must be completely free.
+3. Yes, everything works perfectly
+4. Certificate generation hasn't been done yet. 
+
+Okay, now this is the completed phase 1 of the whole thing.
+
+But, there are still some problems that I want to fix before safely moving to phase 2:
+
+
+1. As I said before, there was a problem with the birthdate and age thingy. Now that you can see the final code, can you fix the problem where the age isn’t automatically calculated under “sample 1” and “sample 2”, but it perfectly works under “barangay clearance” though.
+
+2. Can you make it so that when applicants choose multiple purposes under “barangay clearance”, it would send 2 separate documents into the database? For example, under “barangay clearance”, they chose “proof of residency” and “proof of indigency”, after they submit, the database would receive 2 barangay clearance with all the same information except for the purpose, one “barangay clearance” would have “proof of residency” in its purpose, and another “barangay clearance” with “proof of indigency” in its purpose. But again, it should be all capital letters.
+
+3. Can you also put “others” option under the purposes under “barangay clearance”? This is because some applicants have very specific requests for their barangay clearance that is not under the preset purposes. When they pick “others”, a field appears which allows them to type in their specific purpose, which isn’t restricted to only letters or anything, just make it required to be answered. Can you also put a + under the field that appears so that when they press the + they are able to type more of their specific purpose request. It should add another text field that allows them to add more custom purposes. Yes, they would get 3 separate other purposes fields that create separate applications (as per no.2 of what I sent)
+
+4. Can you replace the “block” and “lot” field and make it only “Block and Lot” but this time without any restrictions because not all addresses have that, sometimes it’s only numbers which wouldn’t be correct for other people. It shouldn’t have any restrictions, even though it may still be under “Block and Lot”, it doesn’t necessarily have to be block and lot.
+
+5. Once an application is “approved”, can you make it so that a button to “Print” the document would appear? And when they press that button, it would automatically take the staff to a PDF that is already formatted to have the information of the applicant in it (this step is something to be done later, I just need that button to appear for now).
+
+6. If the PC doesn’t have internet, it wouldn’t be able to send information to spreadsheet (text only) and google drive (formatted pdf) right? Can you make it so that there would be a queue in which the submitted forms when the PC was offline would still be sent to the spreadsheet and gdrive once the internet goes back on again. If possible, I'd want the queue to be visible to staff. The queue should automatically upload and doesn't require the staff to press any button to sync once the PC goes only. There should also be a retry mechanism just as backup if it fails to do it automatically (it should warn the staff that it failed).
+
+7. Also, in the “barangay management dashboard”, there is a button to “register new resident”, can you just replace that to make an application, even if it is inside the dashboard? It is so that the staff can encode information for applicants who do not know how to input their information using technology. This would make encoding and printing more efficient for everyone, making the document processing much faster. Once the staff submits the application, it would also go to the applications management just like when doing it as an applicant.
+
+8. For the birthdate thing, some applicants get confused on how to use the thing, so to make it easier to use, can you make it this format: “Month Day, Year”, for example, “January 1, 2026”. Have it something similar to what is used right now but more user friendly, especially for people who aren’t really used to technology. A solution would be to keep the date picker but display the selected date in "Month Day, Year" format.
+
+9. Can you also make it so that the applicant’s name can also be searched so that if they submit an application, it can be used as reference for future application.
+
+10. Can you just remove the “remember me” button since it isn’t really needed.
+
+If you have any more clarifications, tell me about them first before giving me the updated code.
+1. - If possible, can you do both?
+    - It should be read-only and not be edited
+2. - Yes exactly what I need
+    - it should be automatically all caps just like the other fields
+    - yes it should remain visible
+3. - It should be required. Always all caps, but have no restrictions.
+4. - It should appear beside approve/reject for it to be easier, and not inside the "view" modal thing
+    - yes only a placeholder pdf for now
+5. - Yes forms still get saved locally
+    - Yes, visible queue
+    - yes, auto uploads to spreadsheet and gdrive, and if it fails it warns the staff and a button to retry appears.
+    - It should be inside the barangay dashboard, specifically the "applications management"
+    - it is not necessary to have a delete option
+    - yes there should be a manual retry button even if it is automatic, it would just be an option to do if the main thing fails (which shouldn't fail)
+
+6. - It should be exactly the same and functions the same as well, you may use it as is.
+
+7. - Yes, the auto-suggest name is good, just like when searching for things in the dropdown thing
+    - yes it should be inside the applications management
+
+8. Yes, just remove it since it is basically useless.
+
+Any more clarifications?
+1. Or can you make it so that once "approved" is clicked, it would be replaced by "print" so that the buttons wouldn't be cramped together? But their function is different, "approved" button is to approve the document, and that "print" button is for printing?
+
+2. I think it would be good if they can search for an applicant's past application, and once the staff presses "view", there is a button to "create new application" (on the top right side of the view pop-up thing) which after you press it, it would clarify again if the staff wants to create an application (that would automatically input this person's information) it would take the staff to the "application form" that is inside the "barangay management dashboard".
+
+Again, if you have more clarifications, just tell me about them.
+COMPLETED STEP 11111111111.txt
+Document
+this is my current working code
+1. Correct
+2. Correct
+3. Correct
+4. Correct
+5. Correct
+6. Correct
+7. Correct
+8. Correct
+9. Correct
+10. Correct
+
+PROCEED WITH EDITS

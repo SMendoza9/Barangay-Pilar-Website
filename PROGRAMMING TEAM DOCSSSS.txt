@@ -1,0 +1,221 @@
+﻿OPENING OF THE WEBSITE
+
+
+HEADING:  Pilar Village Barangay Hall
+
+
+Welcome to the Pilar Village Barangay Hall Services Portal. Please select your access type:
+[Open as Applicant]
+-> if yes, didirect sa forms
+[Open as Member ng Barangay]
+-> if yes need nila maglog-in
+
+
+APPLICANT-VIEW (FORMS)
+- Capitalize the “guide or example” thing that is shown per field
+- Automatically capitalize all the information inputted, so you may remove the “ USE CAPITAL LETTERS WHEN FILLING OUT THIS FORM” at the top of the form.
+- Make everything required to be answered unless specified that it isn’t required.
+- Make it so that only letters can be put in fields that require only words (example: name)
+- Make it so that only numbers can be put in fields that require only numbers (example: age)
+- Make it so that every field is required to be filled out
+- Contact Number must be in this format “09xx xxx xxxx” and must be 11 digits only. It should automatically format starting with the “09” and so on.
+- Automatically input the age after inputting the date of birth (if both are required)
+- The purpose of the application should be in drop-down (that you can search for it, like when you type letters and that the most related would appear), wherein when you choose a requirement, fields where you can input the needed information would appear. And that you can choose multiple purposes in the drop-down list and that fields would appear requiring all the needed information for the purposes that the applicant chose. But some information shouldn’t be redundant, meaning if a field has already appeared before, it shouldn’t repeat again (for example, the applicant wants to get both documents A and B, after choosing both from the drop-down, fields would appear that require information for both documents (but of course separate them), and if something like “age” was already required to be answered for document A, it shouldn’t appear again under the required information under document B since the applicant has already answered that before. But make it so that even though the applicant only answered the question once (under document A), the information inputted would still appear on the PDF for document B (the automated PDF won’t be done right now since it isn’t that “step” yet though).
+
+
+- Last Name
+- First Name
+- Middle Name (not required)
+
+
+Purpose of Application (Drop-down list, the applicant can search and choose multiple, after choosing, fields that require information would appear)
+- Barangay Clearance
+- Sample 1
+- Sample 2
+
+
+If “barangay clearance” was chosen as one of the purposes of application, then these fields would appear:
+- Address
+~ Make it so that there is a format for the address which are drop down lists in which it is formatted like this subdivision (drop-down), street (drop-down, which depends on what subdivision (use the same as before) the applicant chose), and Block and Lot that the applicant types themselves (but it should be “BLOCK __, LOT __”)
+- Birthdate
+- Age (which is automatically filled in because of the birthdate)
+- Gender (which is drop-down with choice of being MALE or FEMALE)
+- Nationality (in which “FILIPINO” is automatically chosen, but all the other nationalities are also listed, with FILIPINO at the top)
+- Place of birth (with the instructions as the same “CITY, PROVINCE”)
+- Length of stay (which is the same as before, but with an option to choose “SINCE BIRTH” in the drop-down box including “MONTH” and “YEAR”, with still a minimum of 6 months)
+-Purpose of Application (a different drop-down list, which appears when the purpose “barangay clearance” is chosen, the applicant can search and choose multiple, after choosing, the certificate of that specific purpose would also be ready for printing, along with the barangay clearance)
+PROOF OF RESIDENCY
+PROOF OF INDIGENCY
+POSTAL ID REQUIREMENT
+PWD ID REQUIREMENT
+SENIOR CITIZEN ID REQUIREMENT
+MEDICAL ASSISTANCE/FINANCIAL
+EDUCATIONAL ASSISTANCE
+GREENCARD APPLICATION/RENEWAL
+LOCAL EMPLOYMENT
+SCHOOL REQUIREMENT
+BANK REQUIREMENT
+LOAN APPLICATION
+SOLO PARENT ID REQUIREMENT
+PHILHEALTH APPLICATION
+TIN ID APPLICATION
+GSIS REQUIREMENT
+SSS REQUIREMENT
+MARRIAGE LICENSE APPLICATION
+LATE REGISTRATION OF BIRTH
+DRIVER LICENSE APPLICATION
+BUSINESS PERMIT APPLICATION
+FIRST TIME JOB SEEKER
+LIBRENG LIBING
+CUTTING TREES
+SOCIAL PENSION
+ONENESS
+UNEMPLOYMENT
+NO DEROGATORY
+CERTIFICATE OF RESIDENCY
+GOOD MORAL
+FIRE VICTIM
+CHANGE ADDRESS
+MAYNILAD/MERALCO
+COHABITATION
+
+
+If “sample 1” was chosen as one of the purposes of application, then these fields would appear:
+- pogi ba si sean? (with drop-down, only “YES” or “NO”)
+- pogi ba si jarred? (with drop-down, only “YES” or “NO”)
+- Gender (which is drop-down with choice of being MALE or FEMALE)
+
+
+If “sample 2” was chosen as one of the purposes of application, then these fields would appear:
+- pogi ba si prince? (with drop-down, only “YES” or “NO”)
+- pogi ba si clarisse? (with drop-down, only “YES” or “NO”)
+- nang-iwan ba si dwayne? (with drop-down, only “YES” or “NO”)
+- Place of birth (with the instructions as the same “CITY, PROVINCE”)
+
+
+
+
+
+
+REQUIRED:
+* Request Formal Image of Applicant (png/jpg) (Required)
+(Applicant’s face must be clearly visible, 1:1 ratio)
+* Last Name 
+* First Name
+* Middle Name 
+* Block and Lot 
+* Street  
+* Subdivision (drop-down list) 
+CYPRESS MANGGAHAN
+CAMELLA HOMES CLASSIC
+CLASSIC HOMES
+CUEVAS COMPOUND
+DAISY COMPOUND
+GARDEN COMPOUND
+GLORIA COMPOUND
+MALIGAYA COMPOUND
+PAG-ASA COMPOUND
+SAMPAGUITA COMPOUND
+BF PILAR SOUTHVILLE
+TERESA COMPOUND
+PILAR VILLAGE
+TERESA PARK
+   * Provincial Address 
+
+
+Contact Number (Required to answer)
+FORMAT: 09X-XXX-XXXX
+
+
+
+
+Place of Birth (Required to answer)
+Birthday (Day MONTH Year)
+Age (Automatically generates after Birthday is filled up)
+
+
+Length of Stay (Minimum length of stay should be 6 MONTHS) (Have it so that the applicant inputs a number, with a drop down list beside it with just Months or Years option) (Required to answer)
+
+
+Nationality (drop-down list of all nationalities that you are allowed to search on but already select Filipino) (Required to answer)
+
+
+
+
+
+
+After filling out the application, a message will appear on screen to verify if it is submitted, the text should read
+HEADING: THANK YOU FOR FILLING YOUR APPLICATION!
+SUBHEADING: We will contact you once your application status is completed.
+
+
+BARANGAY-VIEW (DATABASE)
+
+
+Welcome, [NAME OF EMPLOYEE]!
+
+
+(Drop-down of the list of applicants, you can search for the names of the submitted forms)
+Once selected the following format will appear:
+
+
+BARANGAY DASHBOARD
+
+
+~OVERVIEW~
+Number of pending applications
+Applications processed today
+
+
+~QUICK ACTIONS~
+Application Management
+Generate Certificate
+View Reports 
+
+
+~RECENT ACTIVITY~
+Time, activity, name of applicant, and status
+
+
+Add an editable CONTROL (ID) NUMBER for each of the responses:
+FORMAT
+26 (last digits of the year) — 00000
+
+
+PURPOSE OF APPLICATION
+APPLICATION STATUS (drop-down):
+   * Pending
+   * Done 
+* Approve or reject, add a reason for rejecting before updating the status
+
+
+[Picture of Applicant]
+LAST NAME, First Name, Middle Name 
+CONTACT NUMBER
+
+
+Add date issued that can be edited by the trusted personnel
+
+
+AGE | BIRTHDAY
+PLACE OF BIRTH
+NATIONALITY
+SEX | CIVIL STATUS
+ADDRESS: Block and Lot, Street, Subdivision, 
+PROVINCIAL ADDRESS
+LENGTH OF STAY
+……
+(ADD THE ADDITIONAL INFORMATION IF FIRST TIME JOB-SEEKER)
+
+
+
+
+	
+
+
+
+At the bottom of every webpage add the following:
+
+
+Visit Us! C2C5+FCQ, Aguirre Corner Sapphire, Pilar, Las Piñas, 1740 Metro Manila
+Contact Us! 0927 342 5375
